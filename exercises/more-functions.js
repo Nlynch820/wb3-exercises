@@ -11,3 +11,11 @@
     
 // }
 // addNumbers(1, 4)
+
+function displayReceipt(totalDue, amountPaid) {
+    console.log("Total Due: $" + totalDue);
+    console.log("Amount Paid: $" + amountPaid);
+    console.log("Change Due: $" + (amountPaid - totalDue));
+    
+}
+displayReceipt(57.66, 100)
