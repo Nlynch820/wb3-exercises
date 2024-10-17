@@ -18,7 +18,7 @@ function displayReceipt(totalDue, amountPaid) {
   let changeDue= amountPaid - totalDue;
 if (changeDue < 0){
     let amountDue = Math.abs(changeDue)
-    console.log("You are short, please pay $" + amountDue + " more.");
+    console.log(`You are short, please pay $${amountDue} more.`);
     
 } else{
     console.log("Change Due: $" + changeDue.toFixed(2));
